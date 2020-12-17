@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Subi's Portfolio</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/aos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        
+            <!--모바일로 이동하는 스크립트 시작-->
+    <script type="text/javascript"> var UserAgent = navigator.userAgent; if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) { location.href = "m_index.html"; }
+    </script>
+    <!--모바일로 이동하는 스크립트 끝-->
+    
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="img/01_logo.png" alt="an insightful designer">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a onclick="fnMove('1')">PACKAGE</a></li>
+                        <li><a onclick="fnMove('2')">LEAFLET</a></li>
+                        <li><a onclick="fnMove('3')">BOOK COVER</a></li>
+                        <li><a onclick="fnMove('4')">BI/CI</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+
+            <div class="keyvisual">
+                <div class="keyvisual_wrap">
+                    <div class="keyvisual_title" data-aos="fade-up-right">
+                        <img src="img/03_keyvisual_tit.png" alt="계단을 오르듯이">
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile">
+               <div class="profile_wrap">
+                <div class="Pro" data-aos="fade-up"><img src="img/Pro.png" alt="이름/연락처"></div>
+                <div class="Edu" data-aos="fade-up"><img src="img/Edu.png" alt="education"></div>
+                <div class="Skill" data-aos="fade-up"><img src="img/Skill.png" alt="skill"></div>
+                </div>
+            </div>
+
+            <div class="pf_1" id="anchor1">
+                <div class="pf_wrap">
+                    <div class="pf_1_tit"><img src="img/Pac.png" alt="package"></div>
+                    <div class="pf_1_img" data-aos="zoom-in">
+                    <img src="img/pac1.png" alt="꽃차 패키지 디자인 목업1">
+                    <img src="img/pac2.png" alt="꽃차 패키지 디자인 목업2">
+                    </div>
+                    <div class="pf_1_tex"><img src="img/pac_tex.png" alt="꽃차 패키지 디자인 설명"></div>
+                </div>
+            </div>
+
+            <div class="pf_2" id="anchor2">
+                <div class="pf_wrap">
+                    <div class="pf_2_tit"><img src="img/LEA.png" alt="leaflet"></div>
+                    <div class="pf_2_img" data-aos="flip-left"><img src="img/lea1.png" alt="정크푸드 리플렛 디자인 목업1"></div>
+                    <div class="pf_2_2_img" data-aos="flip-right"><img src="img/lea2.png" alt="정크푸드 리플렛 디자인 목업2"></div>
+                    <div class="pf_2_tex"><img src="img/lea_tex.png" alt="정크푸드 리플렛 디자인 설명"></div>
+                </div>
+            </div>
+
+            <div class="pf_3" id="anchor3">
+                <div class="pf_wrap">
+                    <div class="pf_3_tit"><img src="img/Book.png" alt="book cover"></div>
+                    <div class="pf_3_img" data-aos="zoom-out"><img src="img/book1.png" alt="북커버 디자인 목업1"></div>
+                    <div class="pf_3_2_img" data-aos="zoom-out"><img src="img/book2.png" alt="북커버 디자인 목업2"></div>
+                    <div class="pf_3_tex"><img src="img/book_tex.png" alt="북커버 디자인 설명"></div>
+                </div>
+            </div>
+
+            <div class="pf_4" id="anchor4">
+                <div class="pf_wrap">
+                    <div class="pf_4_tit"><img src="img/BC.png" alt="BI/CI"></div>
+
+                    <div class="pf_4_1" data-aos="flip-left">
+                    <img src="img/BI.png" alt="BI 디자인 목업" class="bi1">
+                    <img src="img/BI_tex.png" alt="BI 디자인 설명" class="bi2">
+                    </div>
+
+                    <div class="pf_4_2" data-aos="flip-right">
+                    <img src="img/CI_tex.png" alt="CI 디자인 설명" class="ci1">
+                    <img src="img/CI.png" alt="CI 디자인 목업" class="ci2">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            <div class="footer_wrap">
+                <div class="footer_tex">Copyright ⓒ Jang Subi. All Rights Reserved.</div>
+            </div>
+        </footer>
+
+         <script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script>
+      function fnMove(seq){
+        var offset = $("#anchor" + seq).offset();
+        $('html,body').animate({scrollTop : offset.top}, 800);
+      }
+    </script>
+
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+
+    </body>
+</html>

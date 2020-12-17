@@ -1,0 +1,36 @@
+*{margin: 0;}
+
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;color: #ffffff;}
+
+header{height: 6.5rem;text-align: center;background-color: #DC857C;}
+header > .logo{padding-top: 2.1rem;}
+
+section > .keyvisual{text-align: center;background-image: url('../img/m_02.png');height: 59.4rem;}
+
+section > .keyvisual > img{padding-top: 17rem;}
+
+section > .profile{background-image: url('../img/m_07.png');height: 51.1rem;}
+
+.pf_01, .pf_02, .pf_03, .pf_04{text-align: center;}
+
+section > .profile > .pf_01{padding-top: 2.5rem;}
+section > .profile > .pf_02{padding-top: 3.7rem;padding-left: 2rem;}
+section > .profile > .pf_03{padding-top: 2.3rem;}
+
+.pf1, .pf2, .pf3, .pf4, .pf5{text-align: center;}
+
+section > .pf1{background-color: #A44438;height: 32.1rem;}
+section > .pf2{background-color: #E5C4C3;height: 43.9rem;}
+section > .pf3{background-color: #A44438;height: 44.7rem;}
+section > .pf4{background-color: #E5C4C3;height: 34.9rem;}
+
+section > .pf1 > img{margin-top: 2rem;}
+section > .pf2 > img{margin-top: 2rem;}
+section > .pf3 > img{margin-top: 2rem;}
+section > .pf4 > img{margin-top: 2rem;}
+section > .pf5 > img{margin-top: 2rem;}
+
+footer {background-color: #BFBFBF;height: 3.5rem;text-align: center;}
+footer > img{margin-top: 1rem;}

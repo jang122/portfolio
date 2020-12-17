@@ -1,0 +1,73 @@
+*{margin: 0;}
+html{font-size: 10px;}
+body{font-size: 1rem; text-align: center;}
+a{text-decoration: none;}
+
+
+header{background-color: #DC857C;width: 100%; text-align: center;}
+header > nav{margin: auto; width: 100%;height: 8rem; display: flex; justify-content: space-between; align-items: center; height: 8rem;}
+
+.logo {margin: auto; overflow: hidden;}
+header > nav > .menu {float: right; margin: auto; display: inline-block; width: 102.4rem;}
+header > nav > .menu > ul {list-style: none; margin: auto;}
+header > nav > .menu > ul > li {float: right;margin: 0rem 1.7rem;}
+header > nav > .menu > ul > li > a {color: white;font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 400;letter-spacing: -0.03rem;}
+header > nav > .menu > ul > li > a:hover {color: #A44438;}
+
+
+section > .keyvisual > .keyvisual_wrap {background-image: url(../img/02_keyvisual_wrap.png);
+                                        height: 60rem;width: 100%; text-align: center; background-repeat: no-repeat; background-position: center top;}
+section > .keyvisual > .keyvisual_wrap > .keyvisual_title {padding-top: 16rem;text-align: center; margin:auto;}
+
+
+section > .profile {background-image: url(../img/bg.png);120rem;height: 130rem; width:100%;}
+section > .profile > .profile_wrap {margin: auto;width: 102.4rem;text-align: center;margin: auto;}
+section > .profile > .profile_wrap > .Pro {margin: auto;width: 102.4rem;padding-top: 10rem;}
+section > .profile > .profile_wrap > .Edu {padding-top: 8rem;padding-left: 6rem;}
+section > .profile > .profile_wrap > .Skill {margin: auto;padding-top: 8rem;padding-bottom: 15rem;}
+
+
+
+section > .pf_1 {background-color: #A44438; width: 100%; height: 105rem;text-align: center;}
+section > .pf_1 > .pf_wrap {margin: auto;}
+section > .pf_1 > .pf_wrap > .pf_1_tit {margin: auto;padding-top: 65px;padding-bottom: 85px;}
+section > .pf_1 > .pf_wrap > .pf_1_img {float: center;}
+section > .pf_1 > .pf_wrap > .pf_1_tex {margin: auto;padding-bottom: 3rem;margin-top: 3rem;text-align: center;}
+
+
+
+section > .pf_2 {background-color: #E5C4C3; width: 100%; height: 130rem;}
+section > .pf_2 > .pf_wrap {margin: auto;text-align: center;}
+section > .pf_2 > .pf_wrap > .pf_2_tit {padding-top: 65px;padding-bottom: 85px;}
+section > .pf_2 > .pf_wrap > .pf_2_img {float: center;}
+section > .pf_2 > .pf_wrap > .pf_2_2_img {float: center;margin-bottom: 3rem;}
+section > .pf_3 > .pf_wrap > .pf_2_tex {margin: auto;}
+
+
+
+section > .pf_3 {background-color: #A44438; width: 100%; height: 168rem;}
+section > .pf_3 > .pf_wrap {margin: auto;text-align: center;margin: auto;}
+section > .pf_3 > .pf_wrap > .pf_3_tit {padding-top: 65px;padding-bottom: 85px;}
+section > .pf_3 > .pf_wrap > .pf_3_img {}
+section > .pf_3 > .pf_wrap > .pf_3_2_img {margin-bottom: 3rem;}
+section > .pf_3 > .pf_wrap > .pf_3_tex {}
+
+
+
+section > .pf_4 {background-color: #E5C4C3; width: 100%;height: 110rem;}
+section > .pf_4 > .pf_wrap {margin: auto;text-align: center;}
+section > .pf_4 > .pf_wrap > .pf_4_tit {margin: auto;padding-top: 65px;padding-bottom: 85px;}
+section > .pf_4 > .pf_wrap > .pf_4_1 {margin-bottom: 5rem;}
+
+section > .pf_4 > .pf_wrap > .pf_4_1 > .bi1 {margin-right: 2rem;}
+section > .pf_4 > .pf_wrap > .pf_4_1 > .bi2 {margin-bottom: 21.7rem;}
+
+section > .pf_4 > .pf_wrap > .pf_4_2 > .ci1 {margin-bottom: 21.7rem;}
+section > .pf_4 > .pf_wrap > .pf_4_2 > .ci2 {margin-left: 2rem;}
+
+
+
+
+
+footer > .footer_wrap {background-color: #BFBFBF;height: 7rem;width: 100%;}
+footer > .footer_wrap > .footer_tex {text-align: center;color: white;font-family: 'Noto Sans KR', sans-serif;font-size: 1.5rem;font-weight: 400;line-height: 7rem;}
